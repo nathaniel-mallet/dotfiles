@@ -139,3 +139,6 @@ else
   echo "Code already installed, skipping"
 fi
 
+# --- Wallpaper and Screensaver ---
+install swww
+
