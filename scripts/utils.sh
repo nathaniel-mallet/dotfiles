@@ -18,3 +18,7 @@ yay_install() {
 		yay -S --noconfirm $1
 	fi
 }
+
+check_command() {
+	command -v "$1" &> /dev/null
+}
