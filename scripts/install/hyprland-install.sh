@@ -38,6 +38,13 @@ for service in "${audio_services[@]}"; do
 	fi
 done
 
+# --- Video ---
+install gst-libav
+install gst-plugins-ugly
+install libavcodec
+install libavformat
+install ffmpeg
+install mpv
 
 # --- Dock & Status bar ---
 install waybar
